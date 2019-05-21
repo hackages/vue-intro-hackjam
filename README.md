@@ -33,6 +33,6 @@ You'll have to play with the props and the binding
 
 If you reached this point, congratulations!
 
-See the data() in the TeslaBatteryComponent? If you go on Tesla's website, you can grab real data and plug them into your app!
+See the data() in the TeslaBatteryComponent? We have a backend hosted here that you can reach to fetch the data! For instance, a GET request to get the data for the model 75 and the unit KM should look like this: https://vue-server-yibhuhmife.now.sh/api?model=75&unit=km
 
 Too easy for you? Use Vuex to manage the state of your app :)
